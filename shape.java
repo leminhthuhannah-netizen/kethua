@@ -1,5 +1,5 @@
 package kethua;
-public class shape {
+public abstract class shape {
     private String color = "red";
     private boolean filled = true;
     // Tạo contructor
@@ -28,10 +28,14 @@ public class shape {
     // public String toString() {
     //     // TODO Auto-generated method stub
     //     return super.toString();
-    // }
+    
     @Override
     public String toString() {
         return "Shape[color=" + color + ", filled=" + filled + "]";
     }
 
+
+    //Phương thức chung về trừu tượng 
+    public abstract double getArea();
+    public abstract double getPerimeter();
 }

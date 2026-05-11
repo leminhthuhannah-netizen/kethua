@@ -26,10 +26,12 @@ public class circle extends shape {
 
     //phuong thuc tinh toan
     //Tính diện tích
-    public double getArea(){
+    @Override
+    public double getArea() {
         return Math.PI *radius*radius;
     }
-    public double getPerimeter(){
+    @Override
+    public double getPerimeter() {
         return 2 * Math.PI * radius;
     }
     
