@@ -23,5 +23,14 @@ public class circle extends shape {
     public String toString() {
         return "Circle["+ super.toString()+"radius=" + radius +"]";
     }
+
+    //phuong thuc tinh toan
+    //Tính diện tích
+    public double getArea(){
+        return Math.PI *radius*radius;
+    }
+    public double getPerimeter(){
+        return 2 * Math.PI * radius;
+    }
     
 }
