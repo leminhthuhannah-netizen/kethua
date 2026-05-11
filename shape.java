@@ -23,6 +23,12 @@ public class shape {
     public void setFilled(boolean filled) {
         this.filled = filled;
     }
+    //toString trong lớp cha Object là như này:
+    // @Override
+    // public String toString() {
+    //     // TODO Auto-generated method stub
+    //     return super.toString();
+    // }
     @Override
     public String toString() {
         return "Shape[color=" + color + ", filled=" + filled + "]";
