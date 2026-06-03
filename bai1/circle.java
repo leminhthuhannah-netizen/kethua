@@ -18,13 +18,11 @@ public class circle extends shape {
     public void setRadius(double radius){
         this.radius = radius;
     }
-    //Để biến toString thành riêng của circle ta cần thay đổi trong nó  -- ghi đè
     @Override
     public String toString() {
         return "Circle["+ super.toString()+"radius=" + radius +"]";
     }
 
-    //phuong thuc tinh toan
     //Tính diện tích
     @Override
     public double getArea() {
