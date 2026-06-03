@@ -11,7 +11,8 @@ public class circle extends shape {
         super(color,filled); // gọi shape đầu tiên nếu ko sẽ lỗi 
         this.radius = radius;
     }
-    // getters setters  Hương
+
+    // getters setters cua hinh tron de bao mat
     public double getRadius() {
         return radius;
     }
