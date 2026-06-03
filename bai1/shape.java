@@ -1,4 +1,4 @@
-package kethua;
+package kethua.bai1;
 public abstract class shape {
     private String color = "red";
     private boolean filled = true;
