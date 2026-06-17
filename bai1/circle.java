@@ -1,5 +1,5 @@
-Hhdidjssdshdsid
-
+Hhdidjssdshdsid hứidhisdhs
+hihfidhihdishdishdisds
 package kethua;
 
 public class circle extends shape {
