@@ -1,3 +1,5 @@
+// test
+
 package kethua;
 
 public class rectangle extends shape {
