@@ -1,8 +1,9 @@
-package kethua;
+package kethua.bai1;
 
 public class rectangle extends shape {
-    private double width = 1.0;
-    private double length = 1.0;
+    //Sử dụng protected thay vì private để gây mâu thuẩn về conflict resolution
+    protected double width ;
+    protected double length ;
 
     //Contructor
     rectangle(){}

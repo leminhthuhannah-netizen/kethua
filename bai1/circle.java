@@ -1,4 +1,4 @@
-package kethua;
+package kethua.bai1;
 
 public class circle extends shape {
     private double radius = 1.0;
