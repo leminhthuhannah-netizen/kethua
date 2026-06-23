@@ -1,4 +1,4 @@
-package kethua;
+package kethua.bai1;
 
 public class circle extends shape {
     private double radius = 1.0;
@@ -11,7 +11,8 @@ public class circle extends shape {
         super(color,filled); // gọi shape đầu tiên nếu ko sẽ lỗi 
         this.radius = radius;
     }
-    // getters setters
+
+    // getters setters cua hinh tron de bao mat
     public double getRadius() {
         return radius;
     }

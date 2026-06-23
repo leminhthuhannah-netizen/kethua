@@ -1,4 +1,4 @@
-package kethua;
+package kethua.bai1;
 
 public class square extends rectangle {
     //contructor
