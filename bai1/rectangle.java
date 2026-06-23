@@ -1,8 +1,9 @@
 package kethua;
 
 public class rectangle extends shape {
-    private double width = 1.0;
-    private double length = 1.0;
+    // Vẫn để private cho người dùng ko thích để protected
+    private double width = 0.0;
+    private double length = 0.0;
 
     //Contructor
     rectangle(){}
